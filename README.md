@@ -4,7 +4,6 @@
 
 이 프로젝트는 명함이 다양한 배경(단색 배경, 복잡한 패턴, 유사 색상 배경, 부분 가려짐 등)에 놓였을 때도 정확하게 명함 영역을 검출하여 정면 이미지로 변환하는 것을 목표로 합니다.
 
----
 
 ## 🔖 프로젝트 개요
 **과목**: 영상처리 (Digital Image Processing)
@@ -23,7 +22,6 @@
 ### 3️⃣ Corner Detection 기반 명함 검출 (Contour 방식)
 - Contour 및 Polygon Approximation 기반 검출, 예외상황 GrabCut 적용, 최적 후보 Perspective 변환 및 Otsu 이진화
 
----
 
 ## 🚧 예외 케이스 처리
 - 특정 이미지(BC12~BC20)는 별도 알고리즘 및 튜닝으로 정확도 향상
@@ -48,7 +46,6 @@
 - 신현섭 & 김차종 (2014). 모바일 환경에서의 명함 인식 성능 향상 연구. 한국정보통신학회 논문지, 18(2), 318-328.
 - OpenCV ([GitHub](https://github.com/opencv/opencv/tree/4.x/modules/imgproc/src))
 
----
 
 ## 👥 팀원 역할 분담
 | 이름   | 주요 담당 역할 |
